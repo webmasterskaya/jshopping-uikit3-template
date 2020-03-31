@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.9" type="package" method="upgrade">
+    <name>PKG_JSHOPPING_UIKIT3_TEMPLATE</name>
+    <packagename>jshopping_uikit3_template</packagename>
+    <author>Webmasterskaya</author>
+    <creationDate>31.03.2020</creationDate>
+    <copyright>Copyright (C) 2020 Webmasterskaya. All rights reserved.</copyright>
+    <license>GNU General Public License version 3 or later; see LICENSE.txt</license>
+    <authorEmail>dev@webmasterskaya.xyz</authorEmail>
+    <authorUrl>https://webmasterskaya.xyz/</authorUrl>
+    <version>1.0.0</version>
+    <description>PKG_JSHOPPING_UIKIT3_TEMPLATE_DESCRIPTION</description>
+    <languages folder="language">
+        <language tag="en-GB">en-GB/en-GB.pkg_jshopping_uikit3_template.sys.ini</language>
+        <language tag="ru-RU">ru-RU/ru-RU.pkg_jshopping_uikit3_template.sys.ini</language>
+    </languages>
+    <files>
+        <folder type="file" id="component">component</folder>
+    </files>
+    <updateservers>
+        <server type="extension" priority="1" name="jshopping-uikit3-template">
+            https://site.com/update?extension=pkg_jshopping_uikit3_template
+        </server>
+    </updateservers>
+</extension>
